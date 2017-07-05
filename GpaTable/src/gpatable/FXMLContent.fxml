@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="content" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="597.0" prefWidth="220.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gpatable.FXMLContentController">
+   <children>
+      <JFXButton fx:id="btn1" accessibleText="semesterone" buttonType="RAISED" onAction="#openSemsesterone" prefHeight="77.0" prefWidth="222.0" ripplerFill="RED" styleClass="button2" stylesheets="@style.css" text="SemesterOne" />
+      <JFXButton fx:id="bttwo" accessibleText="semestertwo" onAction="#openSemestertwo" prefHeight="77.0" prefWidth="222.0" ripplerFill="#00ff0d" styleClass="button2" stylesheets="@style.css" text="SemesterTwo" />
+      <JFXButton fx:id="btthree" accessibleText="semesterthree" buttonType="RAISED" onAction="#openSemesterThree" prefHeight="77.0" prefWidth="222.0" ripplerFill="#ff00e5" styleClass="button2" stylesheets="@style.css" text="SemesterThree" />
+      <JFXButton fx:id="btfour" accessibleText="semesterfour" onAction="#openSemesterfour" prefHeight="77.0" prefWidth="222.0" ripplerFill="#0030ff" styleClass="button2" stylesheets="@style.css" text="SemesterFour" />
+   </children>
+</VBox>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="696.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gpatable.FirstSemesterController">
+   <children>
+      <TableView fx:id="tableview" layoutY="94.0" prefHeight="477.0" prefWidth="719.0">
+        <columns>
+          <TableColumn fx:id="colreg" minWidth="30.0" prefWidth="180.0" text="RegisterNumber" />
+          <TableColumn fx:id="colname" prefWidth="150.0" text="Name" />
+            <TableColumn fx:id="subone" prefWidth="120.0" text="Subject" />
+            <TableColumn fx:id="subject2" prefWidth="120.0" text="Subject2" />
+            <TableColumn fx:id="subjectthree" prefWidth="148.0" text="Subject3" />
+        </columns>
+      </TableView>
+      <JFXButton fx:id="firstbut" buttonType="RAISED" layoutX="295.0" layoutY="31.0" onAction="#loaddetails" ripplerFill="RED" style="-fx-background-color: #ff0000;" text="Load_Details" textFill="WHITE" />
+      <JFXTextField fx:id="txtField" layoutX="471.0" layoutY="32.0" onAction="#initFilter" promptText="Search" />
+   </children>
+</AnchorPane>
